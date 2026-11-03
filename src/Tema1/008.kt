@@ -6,7 +6,7 @@ fun main() {
 
         val top = ProcessBuilder("bash",
             "-c",
-            "ps -eo pid,comm,%cpu --sort=-%cpu | head -n 3"
+            "ps -eo pid,comm,%cpu --sort=-%cpu | head -n 4"
         ).start()
 
         println("=== Muestra ${it + 1} ===")

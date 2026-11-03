@@ -1,3 +1,5 @@
+package `Tema0 POO`
+
 enum class Tipo {
     FUEGO,
     AGUA,

@@ -1,3 +1,5 @@
+package `Tema0 POO`
+
 class Pikachu (
     nombre:String,
     numeroPokedex: Int,

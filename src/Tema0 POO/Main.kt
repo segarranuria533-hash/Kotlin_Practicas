@@ -1,9 +1,11 @@
+package `Tema0 POO`
+
 fun main(){
 
     //Polimorfismo
     val equipo: List<Pokemon> = listOf(
-        Pikachu("Pikachu", 25, Tipo.ELECTRICO),
-        Charmander("Charmander", 4, Tipo.FUEGO)
+        Pikachu("Poo.Pikachu", 25, Tipo.ELECTRICO),
+        Charmander("Poo.Charmander", 4, Tipo.FUEGO)
     )
 
     for (pokemon in equipo){
@@ -33,5 +35,5 @@ fun main(){
     entrenador.llamarPokemon()
 
 
-    //val Charizard = Pokemon("Charizard", 6, Tipo.FUEGO, Tipo.VOLADOR))
+    //val Charizard = Poo.Pokemon("Charizard", 6, Poo.Tipo.FUEGO, Poo.Tipo.VOLADOR))
 }

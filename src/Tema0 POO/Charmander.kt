@@ -1,3 +1,5 @@
+package `Tema0 POO`
+
 class Charmander (
     nombre:String,
     numeroPokedex: Int,

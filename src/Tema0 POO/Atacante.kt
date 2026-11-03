@@ -1,3 +1,5 @@
+package `Tema0 POO`
+
 interface Atacante {
 
     fun ataqueEspecial()

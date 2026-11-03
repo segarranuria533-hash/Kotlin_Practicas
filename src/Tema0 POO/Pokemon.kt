@@ -1,3 +1,5 @@
+package `Tema0 POO`
+
 abstract class Pokemon (
     protected val nombre:String,
     private val numeroPokedex: Int,
